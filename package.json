@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "POC application for testing technologies",
   "scripts": {
-    "test": "test"
+    "test": "echo \"No Testing yet\" && exit 1",
+    "build": "webpack"
   },
   "author": "Colby Schulz",
   "license": "MIT",
