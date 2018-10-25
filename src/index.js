@@ -7,3 +7,4 @@ const target = document.getElementById('root');
 
 render(<App />, target);
 
+module.hot.accept();
