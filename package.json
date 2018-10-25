@@ -5,7 +5,8 @@
   "scripts": {
     "test": "echo \"No Testing yet\" && exit 1",
     "build": "webpack",
-    "start": "webpack-dev-server --open"
+    "start": "webpack-dev-server --open",
+    "server": "node server.js"
   },
   "author": "Colby Schulz",
   "license": "MIT",
