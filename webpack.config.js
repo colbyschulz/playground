@@ -1,10 +1,14 @@
 const path = require("path");
+const CleanWebpackPlugin = require('clean-webpack-plugin');
 
 module.exports = {
   entry: "./src/index.js",
   devServer: {
     contentBase: './dist',
   },
+  plugins: [
+    new CleanWebpackPlugin(['dist']),
+  ],
   module: {
     rules: [
       {
